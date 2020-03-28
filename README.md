@@ -6,7 +6,7 @@
 
 # API
 API for Current cases and more stuff about COVID-19 or the Novel Coronavirus Strain
-https://covid19data.dev/#!/view2
+https://covid19data.dev/
 
 # Recommended by Postman
 NovelCovid API is recommended by Postman [here](https://covid-19-apis.postman.com/)
