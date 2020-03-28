@@ -14,24 +14,24 @@ NovelCovid API is recommended by Postman [here](https://covid-19-apis.postman.co
 # Endpoints v2
 |  GET Request  | Output  |
 | ------------ | ------------ |
-| https://covid19data.dev/v2/historical | Get historical data from the start of 2020. (JHU CSSE GISand Data) |
-| https://covid19data.dev/v2/historical/{country-name} | Get historical data from the start of 2020 for a specific country. (JHU CSSE GISand Data) |
-|  https://covid19data.dev/v2/jhucsse | Return data from the Johns Hopkins CSSE Data Repository (Country, province, confirmed, death, recovered) |
+| https://covid19data.dev/api/v2/historical | Get historical data from the start of 2020. (JHU CSSE GISand Data) |
+| https://covid19data.dev/api/v2/historical/{country-name} | Get historical data from the start of 2020 for a specific country. (JHU CSSE GISand Data) |
+|  https://covid19data.dev/api/v2/jhucsse | Return data from the Johns Hopkins CSSE Data Repository (Country, province, confirmed, death, recovered) |
 
 # Endpoints v1
 |  GET Request  | Output  |
 | ------------ | ------------ |
-|  https://covid19data.dev/all | Returns all total cases, recovery, and deaths. |
-|  https://covid19data.dev/countries | Returns data of all countries that has COVID-19 |
-|  https://covid19data.dev/countries?sort={parameter} | Returns data of each country sorted by the parameter |
-|  https://covid19data.dev/countries/{country-name} | Returns data of a specific country. If an exact name match is desired pass ?strict=true in the query string |
-|  https://covid19data.dev/countries/{country-Id} | Returns the data of a country if it is equal to its country id  |
-|  https://covid19data.dev/countries/{country-ISO2} | Returns the data of a country if it is equal to its country ISO2 |
-|  https://covid19data.dev/countries/{country-ISO3} | Returns the data of a country if it is equal to its country ISO3 |
-|  https://covid19data.dev/states | Returns all United States of America and their Corona data |
-|  https://covid19data.dev/jhucsse | **DEPRECATED USE V2 ENDPOINT** Return data from the Johns Hopkins CSSE Data Repository (Provinces and such) |
-| https://covid19data.dev/historical | **DEPRECATED USE V2 ENDPOINT** Get historical data from the start of 2020. (JHU CSSE GISand Data) |
-| https://covid19data.dev/historical/{country-name} | **DEPRECATED USE V2 ENDPOINT** Get historical data from the start of 2020 for a specific country. (JHU CSSE GISand Data) |
+|  https://covid19data.dev/api/all | Returns all total cases, recovery, and deaths. |
+|  https://covid19data.dev/api/countries | Returns data of all countries that has COVID-19 |
+|  https://covid19data.dev/api/countries?sort={parameter} | Returns data of each country sorted by the parameter |
+|  https://covid19data.dev/api/countries/{country-name} | Returns data of a specific country. If an exact name match is desired pass ?strict=true in the query string |
+|  https://covid19data.dev/api/countries/{country-Id} | Returns the data of a country if it is equal to its country id  |
+|  https://covid19data.dev/api/countries/{country-ISO2} | Returns the data of a country if it is equal to its country ISO2 |
+|  https://covid19data.dev/api/countries/{country-ISO3} | Returns the data of a country if it is equal to its country ISO3 |
+|  https://covid19data.dev/api/states | Returns all United States of America and their Corona data |
+|  https://covid19data.dev/api/jhucsse | **DEPRECATED USE V2 ENDPOINT** Return data from the Johns Hopkins CSSE Data Repository (Provinces and such) |
+| https://covid19data.dev/api/historical | **DEPRECATED USE V2 ENDPOINT** Get historical data from the start of 2020. (JHU CSSE GISand Data) |
+| https://covid19data.dev/api/historical/{country-name} | **DEPRECATED USE V2 ENDPOINT** Get historical data from the start of 2020 for a specific country. (JHU CSSE GISand Data) |
 
 ## Loading and using our NPM Package
 
